@@ -37,7 +37,7 @@ elif Age>=20 and Age<=59:
 else:
     print("Senior citizen")
 
-Question 4
+# Question 4
 
 purchase_amnt=int(input("Amount:"))
 if purchase_amnt>=5000:
