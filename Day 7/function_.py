@@ -104,14 +104,14 @@ if operation=="+":
     print(sum(num1,num2))
 
 elif operation=="*":
-    print(multiply(num1+num2))
+    print(multiply(num1,num2))
 
 elif operation=="-":
-    print(subtract(num1+num2))
+    print(subtract(num1,num2))
 
 elif operation == "/":
     if num2 != 0:
-        print(divide(num1/num2))
+        print(divide(num1,num2))
     else:
         print("Zero division Error")
 
